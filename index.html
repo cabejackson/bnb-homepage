@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quiz App</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet"
+        type="text/css" />
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>Welcome Back to Bowties & Books!</h1>
+            <ul id="menu">
+                <!-- links in nav would route to dif pages -->
+                <li><a href="#logout">logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- start of user homepage -->
+        <!-- header would go at the top of this page too, -->
+        <!-- but nav would include a logout button routing to landing page -->
+        <!-- also, this header could say "welcome back . . ." -->
+        <h3>Please select an option below:</h3>
+        <div>
+            <button type='button' id="button-go-to-new-game">NEW GAME</button>
+            <button type='button' id="button-go-to-saved-games">SAVED GAMES</button>
+        </div>
+        <!-- end of user homepage -->
+
+
+    </main>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
